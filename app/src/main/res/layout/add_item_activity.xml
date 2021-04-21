@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AddItemActivity"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="15sp"
+    >
+
+    <EditText
+        android:layout_marginTop="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title"
+        android:textColorHint="@color/light_gray"
+        android:textColorHighlight="@color/gray"
+        android:textColor="@color/gray"
+        android:backgroundTint="@color/light_gray"
+        android:textCursorDrawable="@null"
+        android:textSize="20sp"
+        android:id="@+id/edit_title"
+        />
+
+    <EditText
+        android:layout_marginTop="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/description"
+        android:textColorHint="@color/light_gray"
+        android:textColorHighlight="@color/gray"
+        android:textColor="@color/gray"
+        android:backgroundTint="@color/light_gray"
+        android:textCursorDrawable="@null"
+        android:textSize="20sp"
+        android:id="@+id/edit_desc"
+        />
+
+    <TextView
+        android:layout_marginTop="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/priority"
+        android:textSize="20sp"
+        android:textColor="@color/gray"
+        />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/important"
+        android:textSize="20sp"
+        android:id="@+id/check_imp"
+        />
+
+</LinearLayout>

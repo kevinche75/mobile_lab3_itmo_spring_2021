@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Android Components</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="priority">Priority</string>
+    <string name="save">Save</string>
+    <string name="important">Important</string>
+</resources>
